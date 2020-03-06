@@ -35,6 +35,7 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
                 if(keyCode == KeyEvent.KEYCODE_ENTER && keyCode==KeyEvent.ACTION_DOWN){
                     onClick(mbtnsignup);
                 }
+                
                 return false;
             }
         });
